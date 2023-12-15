@@ -178,7 +178,7 @@ namespace CollectionsMasterConsoleUI
                     numberList[i] = -1;
             }
 
-            for (int i = numberList.Count - 1; i > 0; i--)
+            for (int i = numberList.Count - 1; i >= 0; i--)
                 numberList.Remove(-1);
 
             foreach(int number in numberList)
